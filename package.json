@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "axios": "^1.5.1",
+    "fs": "^0.0.1-security",
+    "node-telegram-bot-api": "^0.63.0",
+    "path": "^0.12.7",
+    "telegraf": "^4.14.0"
+  },
+  "name": "nasa",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development nodemon ./NASA_bot.js",
+    "start": "cross-env NODE_ENV=production node ./NASA_bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
